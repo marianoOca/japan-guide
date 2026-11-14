@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Domo's Japan guide</title>
+<meta name="description" content="Where to stay, where to start the night and where to end it. Domo's Tokyo playbook in one PDF. US$75.">
+<meta property="og:title" content="Domo's Japan guide">
+<meta property="og:description" content="Your Tokyo night, in the exact order. One PDF. US$75.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://marianooca.github.io/japan-guide/img/DdxiKHlEfWC.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --night: #2a0a0c;
+  --wine: #4a1218;
+  --gold: #e3c770;
+  --gold-bright: #f5dc96;
+  --blush: #fff5f5;
+  --blush-dim: rgba(255, 245, 245, .74);
+  --line: rgba(255, 245, 245, .18);
+  --board: #fcfcf9;
+  --frame: #c9ccd1;
+  --marker: #1b1b1f;
+  --marker-orange: #e2601c;
+  --display: 'Playfair Display', Georgia, serif;
+  --body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --hand: 'Caveat Brush', 'Bradley Hand', cursive;
+  --gutter: 20px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--night); color: var(--blush); font: 17px/1.6 var(--body); padding-bottom: 84px; }
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 3px; }
+h1, h2 { font-family: var(--display); font-weight: 700; line-height: 1.12; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2.4rem, 9.4vw, 4.6rem); letter-spacing: -.01em; }
+h2 { font-size: clamp(1.75rem, 6vw, 2.6rem); }
+p { margin: 0; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 var(--gutter); }
+.sub { color: var(--blush-dim); margin-top: 14px; max-width: 36rem; }
+
+.preview { background: var(--blush); color: var(--night); font-size: 14px; line-height: 1.45; padding: 10px var(--gutter); text-align: center; }
+
+.button { display: inline-block; background: var(--gold); color: var(--night); font-weight: 700; font-size: 1.05rem; text-decoration: none; padding: 16px 26px; border-radius: 8px; text-align: center; }
+.button:hover { background: var(--gold-bright); }
+.price { font-family: var(--display); font-size: 1.5rem; line-height: 1.2; color: var(--gold); }
+.price small { display: block; font: 14px/1.3 var(--body); color: var(--blush-dim); }
+.buy { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; }
+.seen { margin-top: 16px; font-size: 15px; color: var(--blush-dim); }
+
+.hero { padding: 40px 0 56px; }
+.hero-grid { display: grid; gap: 34px; }
+.hero .lead { font-size: 1.15rem; color: var(--blush-dim); margin-top: 18px; max-width: 34rem; }
+.cover { position: relative; width: min(100%, 300px); aspect-ratio: 9 / 16; border-radius: 22px; overflow: hidden; background: var(--wine); justify-self: center; margin: 0; }
+.cover img { width: 100%; height: 100%; object-fit: cover; }
+.cover figcaption { position: absolute; left: 12px; bottom: 12px; background: rgba(20, 4, 6, .84); font-size: 14px; font-weight: 600; padding: 6px 10px; border-radius: 6px; }
+
+.band { padding: 56px 0; }
+.band.wine { background: var(--wine); }
+
+.fumbles { list-style: none; margin: 30px 0 0; padding: 0; display: grid; }
+.fumbles li { display: grid; grid-template-columns: 34px 1fr; column-gap: 14px; padding: 20px 0; border-top: 1px solid var(--line); }
+.fumbles svg { width: 30px; height: 30px; margin-top: 2px; }
+.fumbles h3 { font: 700 1.25rem/1.25 var(--display); margin: 0 0 6px; }
+.fumbles p { color: var(--blush-dim); }
+
+.board { margin-top: 30px; background: var(--board); color: var(--marker); border: 10px solid var(--frame); border-radius: 8px; padding: 20px 18px 26px; font-family: var(--hand); }
+.board .site { font-size: 1.1rem; letter-spacing: .08em; color: #55585f; text-align: center; }
+.board-grid { display: grid; gap: 10px; margin-top: 8px; }
+.map { width: min(100%, 330px); margin: 0 auto; }
+.map text { font-family: var(--hand); fill: var(--marker); }
+.map .note { font-size: 15px; fill: #4a4d55; }
+.map .rail, .map .ring, .map .spur { fill: none; stroke-linecap: round; }
+.map .rail { stroke: var(--marker); stroke-width: 4; }
+.map .spur { stroke: var(--marker); stroke-width: 2.5; stroke-dasharray: 2 8; }
+.map .ring { stroke: var(--marker-orange); stroke-width: 3.5; }
+.map circle { fill: var(--board); stroke: var(--marker); stroke-width: 4; }
+.board h3 { font: 400 2.1rem/1.1 var(--hand); color: var(--marker-orange); margin: 6px 0 16px; text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; }
+.board ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.board li { display: grid; grid-template-columns: 5.4em 1fr; column-gap: 10px; align-items: baseline; }
+.board .when { font-size: 1.4rem; color: var(--marker-orange); line-height: 1.15; }
+.board .what { font-size: 1.55rem; line-height: 1.2; }
+.board .said { grid-column: 2; font: 15px/1.5 var(--body); color: #4a4d55; margin-top: 4px; }
+.smudge { display: inline-block; height: .78em; vertical-align: -.06em; border-radius: 45% 55% 50% 40%; background: linear-gradient(97deg, rgba(27, 27, 31, 0), rgba(27, 27, 31, .34) 14%, rgba(27, 27, 31, .16) 48%, rgba(27, 27, 31, .36) 80%, rgba(27, 27, 31, 0)); filter: blur(1.6px); transform: rotate(-1.5deg); }
+.board .key { margin-top: 22px; padding-top: 16px; border-top: 3px dashed var(--frame); font-size: 1.35rem; line-height: 1.3; }
+.tray { height: 14px; background: var(--frame); border-radius: 0 0 8px 8px; margin: 0 26px; position: relative; }
+.tray::before, .tray::after { content: ''; position: absolute; top: -9px; height: 9px; width: 64px; border-radius: 3px; }
+.tray::before { left: 30px; background: var(--marker); }
+.tray::after { left: 108px; background: var(--marker-orange); }
+.draft { margin-top: 18px; font-size: 14px; color: var(--blush-dim); border-left: 3px solid var(--gold); padding-left: 12px; max-width: 44rem; }
+.after-board { margin-top: 30px; }
+
+.js .board li, .js .board .key { clip-path: inset(0 100% 0 0); }
+.js .map .rail, .js .map .ring { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.js .board.on li, .js .board.on .key { clip-path: inset(0 0 0 0); transition: clip-path .5s ease-out; transition-delay: calc(.9s + var(--i) * .15s); }
+.js .board.on .rail { stroke-dashoffset: 0; transition: stroke-dashoffset .8s ease-out; }
+.js .board.on .ring { stroke-dashoffset: 0; transition: stroke-dashoffset .45s ease-out .8s; }
+
+.covers { margin-top: 28px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.covers .cover { width: 100%; border-radius: 14px; }
+
+.offer { display: grid; gap: 28px; }
+.offer ul { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 12px; }
+.offer li { padding-left: 22px; position: relative; }
+.offer li::before { content: ''; position: absolute; left: 0; top: .62em; width: 9px; height: 9px; border-radius: 50%; background: var(--gold); }
+.ticket { border: 1px solid rgba(227, 199, 112, .5); border-radius: 12px; padding: 24px; align-self: start; }
+.ticket dl { margin: 0 0 20px; display: grid; grid-template-columns: 1fr auto; gap: 10px 16px; align-items: baseline; }
+.ticket dt { color: var(--blush-dim); }
+.ticket dd { margin: 0; font-family: var(--display); font-size: 1.3rem; text-align: right; color: var(--blush-dim); }
+.ticket .mine { color: var(--blush); font-weight: 600; }
+.ticket dd.mine { font-size: 2.6rem; line-height: 1; color: var(--gold); font-weight: 400; }
+.ticket .button { display: block; }
+.ticket .seen { text-align: center; }
+
+.about { display: grid; gap: 14px; }
+.about > * { max-width: 40rem; }
+.about .sign { font-family: var(--display); font-size: 1.5rem; line-height: 1.3; color: var(--gold); margin-top: 8px; }
+
+.faq h2 { margin-bottom: 22px; }
+details { border-top: 1px solid var(--line); padding: 16px 0; max-width: 44rem; }
+details:last-of-type { border-bottom: 1px solid var(--line); }
+summary { cursor: pointer; font-weight: 600; font-size: 1.08rem; }
+details p { margin-top: 10px; color: var(--blush-dim); }
+
+footer { padding: 30px 0 40px; font-size: 14px; color: var(--blush-dim); }
+
+.sticky { position: fixed; left: 0; right: 0; bottom: 0; background: rgba(42, 10, 12, .96); border-top: 1px solid rgba(227, 199, 112, .4); padding: 12px var(--gutter) calc(12px + env(safe-area-inset-bottom)); display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.sticky .price { font-size: 1.25rem; }
+.sticky .button { padding: 13px 20px; font-size: 1rem; }
+
+@media (min-width: 760px) {
+  body { font-size: 18px; padding-bottom: 0; }
+  .hero { padding: 76px 0 88px; }
+  .hero-grid { grid-template-columns: 1.35fr .65fr; align-items: center; gap: 56px; }
+  .band { padding: 88px 0; }
+  .fumbles { grid-template-columns: 1fr 1fr; column-gap: 56px; }
+  .board { padding: 30px 40px 40px; border-width: 14px; }
+  .board-grid { grid-template-columns: 330px 1fr; gap: 36px; align-items: start; }
+  .board h3 { font-size: 2.6rem; }
+  .board li { grid-template-columns: 6.4em 1fr; }
+  .board .when { font-size: 1.7rem; }
+  .board .what { font-size: 1.9rem; }
+  .board .key { font-size: 1.6rem; }
+  .covers { grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .offer { grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; }
+  .sticky { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .board li, .js .board .key { clip-path: none; transition: none; }
+  .js .map .rail, .js .map .ring { stroke-dashoffset: 0; transition: none; }
+}
+</style>
+</head>
+<body>
+
+<p class="preview"><strong>Preview made for Domo Vang.</strong> Not live, hidden from search. The copy is drafted from your public Japan reels. The buy buttons open your Gumroad store for now: list the guide there and this page sells it without you answering a single DM.</p>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Here is your Japan guide. It is very strategic.</h1>
+      <p class="lead">Where to sleep, where to start the night, where to end it, and how not to fumble her at 4 am. My Tokyo playbook in one PDF.</p>
+      <div class="buy">
+        <a class="button" href="https://domovang.gumroad.com/">Get the Japan guide</a>
+        <p class="price">US$75 <small>One PDF. An hour with me is $1,000.</small></p>
+      </div>
+      <p class="seen">2.4 million plays and 104,000 likes on the Tokyo reel. This is the long version.</p>
+    </div>
+    <figure class="cover">
+      <img src="img/DdxiKHlEfWC.jpg" width="640" height="1136" alt="Domo in front of her whiteboard, from her Tokyo reel">
+      <figcaption>2.4M plays on Instagram</figcaption>
+    </figure>
+  </div>
+</header>
+
+<section class="band wine">
+  <div class="wrap">
+    <h2>Four ways guys fumble Tokyo</h2>
+    <p class="sub">You paid for the flight. Do not lose the trip to one of these.</p>
+    <ul class="fumbles">
+      <li><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 6 Q14 13 25 25 M25 5 Q15 15 5 26" fill="none" stroke="#e2601c" stroke-width="4" stroke-linecap="round"/></svg><div><h3>Booking the wrong neighborhood</h3><p>I met people who really regretted where they stayed. From the right block, the bars are a five-minute walk and so is your bed.</p></div></li>
+      <li><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 6 Q14 13 25 25 M25 5 Q15 15 5 26" fill="none" stroke="#e2601c" stroke-width="4" stroke-linecap="round"/></svg><div><h3>Hunting as a pack of guys</h3><p>A group of guys at the club can feel kind of creepy. With one or two girls in the group you're cool, you're normal. There is a place to find them first.</p></div></li>
+      <li><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 6 Q14 13 25 25 M25 5 Q15 15 5 26" fill="none" stroke="#e2601c" stroke-width="4" stroke-linecap="round"/></svg><div><h3>Golden Gai with no yen</h3><p>Most of the bars are cash only, and almost every one charges a cover just to get in. Pull yen before you go.</p></div></li>
+      <li><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 6 Q14 13 25 25 M25 5 Q15 15 5 26" fill="none" stroke="#e2601c" stroke-width="4" stroke-linecap="round"/></svg><div><h3>Asking for a rest when you meant a stay</h3><p>A love hotel sells a two-hour rest and an overnight stay. I once got trapped in a rest: walk out of the room and they charge you in full.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>Your Tokyo night, in this exact order</h2>
+    <p class="sub">They party late in Tokyo, until 4 or 5 in the morning. I put the night on the whiteboard. The names are in the guide.</p>
+
+    <div class="board" id="board">
+      <p class="site">DOMOVANGDATING.COM</p>
+      <div class="board-grid">
+        <svg class="map" viewBox="0 0 330 300" role="img" aria-label="Hand-drawn map of Tokyo: Shinjuku, Harajuku, Shibuya circled, and Roppongi">
+          <path class="rail" pathLength="1" d="M126 12 Q121 28 116 44 Q97 90 100 132 Q103 180 130 222 Q142 250 148 290"/>
+          <path class="spur" d="M140 220 Q190 196 232 208"/>
+          <path class="ring" pathLength="1" d="M131 199 C160 196 162 244 131 246 C100 247 98 202 136 198"/>
+          <circle cx="116" cy="44" r="7"/><circle cx="100" cy="132" r="7"/><circle cx="130" cy="222" r="7"/><circle cx="240" cy="210" r="7"/>
+          <text x="136" y="44" font-size="23">Shinjuku</text><text class="note" x="136" y="62">Golden Gai. Not your hotel.</text>
+          <text x="120" y="130" font-size="23">Harajuku</text><text class="note" x="120" y="148">Day game, toward Omotesando.</text>
+          <text x="92" y="220" font-size="23" text-anchor="end">Shibuya</text><text class="note" x="92" y="238" text-anchor="end">The clubs.</text><text class="note" x="92" y="254" text-anchor="end">Sleep here.</text>
+          <text x="322" y="184" font-size="23" text-anchor="end">Roppongi</text><text class="note" x="322" y="240" text-anchor="end">Hotel bars. Dress up.</text>
+        </svg>
+        <div>
+          <h3>Japan bar hop</h3>
+          <ol>
+            <li style="--i:0"><span class="when">Before</span><span class="what">Sleep in <span class="smudge" style="width:5.2em"></span></span><span class="said">One block of Shibuya. Meet her at the bar, walk five minutes home.</span></li>
+            <li style="--i:1"><span class="when">8 to 10-ish</span><span class="what">Start at <span class="smudge" style="width:6em"></span></span><span class="said">The Shibuya one, not the other branches. The girls there are looking for a guy who is not Japanese.</span></li>
+            <li style="--i:2"><span class="when">Next</span><span class="what"><span class="smudge" style="width:4.6em"></span>, the standing bar</span><span class="said">The moment you enter they put you at a table full of people. It forces connection.</span></li>
+            <li style="--i:3"><span class="when">12-ish</span><span class="what"><span class="smudge" style="width:3.4em"></span> or <span class="smudge" style="width:4.4em"></span></span><span class="said">The quieter clubs. One is free for women, so it leans younger.</span></li>
+            <li style="--i:4"><span class="when">Last</span><span class="what">End at <span class="smudge" style="width:2.8em"></span></span><span class="said">Three floors and it's packed. Go at least once before you leave Shibuya.</span></li>
+            <li style="--i:5"><span class="when">4 am</span><span class="what">Rest or stay?</span><span class="said">Trains start again around six or seven. Party till four and you have a two-hour gap with nowhere to go.</span></li>
+          </ol>
+          <p class="key" style="--i:6"><span class="smudge" style="width:3em"></span> = in the guide</p>
+        </div>
+      </div>
+    </div>
+    <div class="tray" aria-hidden="true"></div>
+    <p class="draft">Draft for Domo: this board is built from what you say in your reels, with the names wiped. The guide's real table of contents goes here.</p>
+
+    <div class="buy after-board">
+      <a class="button" href="https://domovang.gumroad.com/">Get the Japan guide</a>
+      <p class="price">US$75 <small>One PDF, yours to keep</small></p>
+    </div>
+  </div>
+</section>
+
+<section class="band wine">
+  <div class="wrap">
+    <h2>You watched the 60-second versions</h2>
+    <p class="sub">Seven Japan reels, 7.6 million plays. Each one is a piece. The guide is the whole trip in one place, so you are not scrolling my page in a Shibuya stairwell at midnight.</p>
+    <div class="covers">
+      <figure class="cover"><img loading="lazy" src="img/DeJAiqIDxZG.jpg" width="640" height="1136" alt="Reel: the secret bar"><figcaption>2.2M plays</figcaption></figure>
+      <figure class="cover"><img loading="lazy" src="img/Dfk5H3KSAAR.jpg" width="640" height="1136" alt="Reel: where to stay in Japan"><figcaption>1.2M plays</figcaption></figure>
+      <figure class="cover"><img loading="lazy" src="img/DePbceblNfC.jpg" width="640" height="1136" alt="Reel: the Tokyo Friday night bar hop"><figcaption>886K plays</figcaption></figure>
+      <figure class="cover"><img loading="lazy" src="img/Dfluiigh6Bi.jpg" width="640" height="1136" alt="Reel: love hotels, stay versus rest"><figcaption>547K plays</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap offer">
+    <div>
+      <h2>The Japan guide</h2>
+      <ul>
+        <li>A PDF you keep on your phone for the whole trip.</li>
+        <li>Written by me, from my own time in Tokyo and what my friends came back with.</li>
+        <li>Pay, download, read it on the plane. No course, no call, no waiting on a reply.</li>
+      </ul>
+    </div>
+    <div class="ticket">
+      <dl>
+        <dt>One hour with me</dt><dd>$1,000</dd>
+        <dt class="mine">The Japan guide</dt><dd class="mine">US$75</dd>
+      </dl>
+      <a class="button" href="https://domovang.gumroad.com/">Get the Japan guide</a>
+      <p class="seen">One payment. Download right away.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band wine">
+  <div class="wrap about">
+    <h2>Who is telling you this</h2>
+    <p>I'm Domo Vang, a matchmaker and dating coach in San Francisco. I help analytical men date better, in person and for 300K+ followers on Instagram. I wrote The Domo Theory, and The San Francisco Standard has covered my matchmaking dinners.</p>
+    <p>I went to Tokyo and came back with a playbook.</p>
+    <p class="sign">My name is Domo. I just put you on game.</p>
+  </div>
+</section>
+
+<section class="band faq">
+  <div class="wrap">
+    <h2>Before you buy</h2>
+    <details><summary>What exactly do I get?</summary><p>One PDF: my Japan guide. Not a course and not coaching.</p></details>
+    <details><summary>How do I get it?</summary><p>Tap the button, pay on Gumroad, download the PDF. It takes a minute and you do not have to message anyone.</p></details>
+    <details><summary>I want more than a PDF.</summary><p>Then you want the strategy call or the 8-week bootcamp. Both are at domovangdating.com.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Demo page built from Domo Vang's public posts. Not published by her and not selling anything until she approves it.</div>
+</footer>
+
+<div class="sticky">
+  <p class="price">US$75</p>
+  <a class="button" href="https://domovang.gumroad.com/">Get the Japan guide</a>
+</div>
+
+<script>
+document.documentElement.classList.add('js');
+var board = document.getElementById('board');
+if ('IntersectionObserver' in window) {
+  new IntersectionObserver(function (entries, seen) {
+    if (entries[0].isIntersecting) { board.classList.add('on'); seen.disconnect(); }
+  }, { threshold: .12 }).observe(board);
+} else board.classList.add('on');
+</script>
+</body>
+</html>
